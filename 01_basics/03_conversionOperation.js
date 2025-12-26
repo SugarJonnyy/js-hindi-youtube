@@ -17,4 +17,15 @@ console.log(convertNull);
 let undefinedValue = undefined
 let convertUndefined = Boolean(undefinedValue)
 console.log(convertUndefined);
+  
+
+
+
+//*******************************Operations*********************************** */
  
+
+console.log(2 + 1 + "2")
+console.log("2" + 1 + 1);
+ 
+/* javascript operation (precedence) happening from 
+ left to right if there is parenthesis within operands */
