@@ -52,6 +52,30 @@ console.log(typeof(myFunction));
 console.log(typeof(anotherSymbol));
 console.log(typeof(numIn));
 
+// two types of memory 
+ // Stack (Primitive) and Heap memory (Non-Primitive)
+
+ // there is a differnce between reference (happens in heap) and copy (happens in stack)
+
+ let userOne = {
+    email: "saswatadas2020@gmail.com",
+    name: "Saswata Das",
+ }
+
+let userTwo = userOne
+userTwo.email = "saswatadas705@gmail.com" 
+console.log(userOne);
+console.log(userTwo); // changed bc of passing reference
+
+
+let name = "Saswata Das"
+let myName = name
+myName = "Hitesh"
+
+console.log(name);
+console.log(myName); //not changed bc of passing copy 
+
+
 
 
 
